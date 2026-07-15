@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/movies", (req, res) => {
+router.get("/new", (req, res) => {
   res.status(200).send({ msg: "movie list" });
 });
 
