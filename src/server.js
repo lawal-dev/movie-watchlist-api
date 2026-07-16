@@ -1,5 +1,6 @@
 import express from "express";
 import movieRoutes from "./routes/movieRoutes.js";
+import { config } from "dotenv";
 
 const app = express();
 app.use("/api", movieRoutes);
